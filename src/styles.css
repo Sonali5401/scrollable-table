@@ -1,0 +1,41 @@
+.table-container {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.scrollable-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid #ccc;
+}
+
+.scrollable-table th,
+.scrollable-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.scrollable-table thead {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+.scroll-to-top {
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+  width: 100px;
+  background-color: #726ca1;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 2;
+  user-select: none;
+}
+
+.scroll-to-top:hover {
+  background-color: #ddd;
+}
